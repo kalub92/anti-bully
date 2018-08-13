@@ -1,0 +1,198 @@
+[
+  {
+    "text": "You are so amazing!",
+    "label": "kindness"
+  }, {
+    "text": "You're a good person",
+    "label": "kindness"
+  }, {
+    "text": "You're a beautiful individual",
+    "label": "kindness"
+  }, {
+    "text": "We should be friends!",
+    "label": "kindness"
+  }, {
+    "text": "You're the best.",
+    "label": "kindness"
+  }, {
+    "text": "Nice work!",
+    "label": "kindness"
+  }, {
+    "text": "You look great",
+    "label": "kindness"
+  }, {
+    "text": "You're so good at that",
+    "label": "kindness"
+  }, {
+    "text": "I like your hair",
+    "label": "kindness"
+  }, {
+    "text": "You look beautiful",
+    "label": "kindness"
+  }, {
+    "text": "You look handsome",
+    "label": "kindness"
+  }, {
+    "text": "You did a great job",
+    "label": "kindness"
+  }, {
+    "text": "You're amazing!",
+    "label": "kindness"
+  }, {
+    "text": "You're my favorite person",
+    "label": "kindness"
+  }, {
+    "text": "You are so awesome",
+    "label": "kindness"
+  }, {
+    "text": "Super cool",
+    "label": "kindness"
+  }, {
+    "text": "Love this",
+    "label": "kindness"
+  }, {
+    "text": "You can do it!",
+    "label": "encouragement"
+  }, {
+    "text": "I know you can do this",
+    "label": "encouragement"
+  }, {
+    "text": "Keep on keeping on",
+    "label": "encouragement"
+  }, {
+    "text": "Keep trying",
+    "label": "encouragement"
+  }, {
+    "text": "I believe in you",
+    "label": "encouragement"
+  }, {
+    "text": "You're going to do great",
+    "label": "encouragement"
+  }, {
+    "text": "Keep trying",
+    "label": "encouragement"
+  }, {
+    "text": "Keep it up",
+    "label": "encouragement"
+  }, {
+    "text": "Keep going",
+    "label": "encouragement"
+  }, {
+    "text": "You can do this",
+    "label": "encouragement"
+  }, {
+    "text": "You're killing it",
+    "label": "encouragement"
+  }, {
+    "text": "Don't give up",
+    "label": "encouragement"
+  }, {
+    "text": "You're so close",
+    "label": "encouragement"
+  }, {
+    "text": "You're almost there",
+    "label": "encouragement"
+  }, {
+    "text": "I know you can do this!",
+    "label": "encouragement"
+  }, {
+    "text": "You're almost there",
+    "label": "encouragement"
+  }, {
+    "text": "You suck",
+    "label": "mean"
+  }, {
+    "text": "This is trash",
+    "label": "mean"
+  }, {
+    "text": "You're a piece of crap",
+    "label": "mean"
+  }, {
+    "text": "I hate you",
+    "label": "mean"
+  }, {
+    "text": "You're the worst",
+    "label": "mean"
+  }, {
+    "text": "You're so ugly",
+    "label": "mean"
+  }, {
+    "text": "You should die",
+    "label": "mean"
+  }, {
+    "text": "Kill yourself",
+    "label": "mean"
+  }, {
+    "text": "This is a joke",
+    "label": "mean"
+  }, {
+    "text": "This is garbage",
+    "label": "mean"
+  }, {
+    "text": "What a loser",
+    "label": "mean"
+  }, {
+    "text": "This is stupid",
+    "label": "mean"
+  }, {
+    "text": "You should stop trying",
+    "label": "mean"
+  }, {
+    "text": "Just give up",
+    "label": "mean"
+  }, {
+    "text": "You're an idiot",
+    "label": "mean"
+  }, {
+    "text": "You are so dumb",
+    "label": "mean"
+  }, {
+    "text": "You are a person",
+    "label": "neutral"
+  }, {
+    "text": "We want to go to the park",
+    "label": "neutral"
+  }, {
+    "text": "I'd enjoy it more if it were free",
+    "label": "neutral"
+  }, {
+    "text": "You are playing guitar",
+    "label": "neutral"
+  }, {
+    "text": "He is doing a dance",
+    "label": "neutral"
+  }, {
+    "text": "He wants to eat",
+    "label": "neutral"
+  }, {
+    "text": "They like watching TV",
+    "label": "neutral"
+  }, {
+    "text": "We can do that",
+    "label": "neutral"
+  }, {
+    "text": "This is a cat",
+    "label": "neutral"
+  }, {
+    "text": "You will play basketball",
+    "label": "neutral"
+  }, {
+    "text": "I think this is a ball",
+    "label": "neutral"
+  }, {
+    "text": "I want to fly to Kansas",
+    "label": "neutral"
+  }, {
+    "text": "We will go to school",
+    "label": "neutral"
+  }, {
+    "text": "We might take some bread",
+    "label": "neutral"
+  }, {
+    "text": "They could trim their dog's fur",
+    "label": "neutral"
+  }, {
+    "text": "The dog is brown",
+    "label": "neutral"
+  }
+]
