@@ -14,6 +14,8 @@
 		71F7360F2121EA3400405677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F7360E2121EA3400405677 /* Assets.xcassets */; };
 		71F736122121EA3400405677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F736102121EA3400405677 /* LaunchScreen.storyboard */; };
 		71F7361A2121EB0700405677 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F736192121EB0700405677 /* RoundedButton.swift */; };
+		71FC2B62212241790041CE29 /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FC2B61212241790041CE29 /* Emotion.swift */; };
+		71FC2B672122451B0041CE29 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FC2B662122451B0041CE29 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		71F736112121EA3400405677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F736132121EA3400405677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F736192121EB0700405677 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		71FC2B61212241790041CE29 /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		71FC2B662122451B0041CE29 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				7107537B2121F45400465F19 /* BullyClassifier.mlmodel */,
 				71F7361E2121EB4F00405677 /* View */,
+				71FC2B65212244F70041CE29 /* ViewModel */,
 				71F7361D2121EB4700405677 /* Controller */,
+				71FC2B63212241BA0041CE29 /* Resources */,
 				71F736072121EA3200405677 /* AppDelegate.swift */,
 				71F7360B2121EA3200405677 /* Main.storyboard */,
 				71F7360E2121EA3400405677 /* Assets.xcassets */,
@@ -84,6 +90,22 @@
 				71F736192121EB0700405677 /* RoundedButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		71FC2B63212241BA0041CE29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71FC2B61212241790041CE29 /* Emotion.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71FC2B65212244F70041CE29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71FC2B662122451B0041CE29 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +182,8 @@
 				7107537C2121F45400465F19 /* BullyClassifier.mlmodel in Sources */,
 				71F7360A2121EA3200405677 /* ViewController.swift in Sources */,
 				71F7361A2121EB0700405677 /* RoundedButton.swift in Sources */,
+				71FC2B62212241790041CE29 /* Emotion.swift in Sources */,
+				71FC2B672122451B0041CE29 /* ViewModel.swift in Sources */,
 				71F736082121EA3200405677 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,17 +9,12 @@
 import UIKit
 import CoreML
 
-enum Emotion: String {
-    case kindness = "Kind 🤗"
-    case encouragment = "Encouraging 😃"
-    case mean = "Mean 🤬"
-    case neutral = "Neutral 😶"
-}
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var predictionLabel: UILabel!
     @IBOutlet weak var sentenceTextField: UITextField!
+    
+    var viewModel: ViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,29 +28,9 @@ class ViewController: UIViewController {
             return
         }
         guard let sentence = sentenceTextField.text else { return }
-        predictionLabel.text = analyze(text: sentence)
+        viewModel = ViewModel(textData: sentence)
+        predictionLabel.text = viewModel.analyze(text: sentence)
         sentenceTextField.text = ""
-    }
-    
-    func analyze(text: String) -> String {
-        let prediction = try? BullyClassifier().prediction(text: text)
-        guard let label = prediction?.label else { fatalError() }
-        return emojify(label: label).rawValue
-    }
-    
-    func emojify(label: String) -> Emotion {
-        switch label {
-        case "kindness":
-            return .kindness
-        case "encouragement":
-            return .encouragment
-        case "mean":
-            return .mean
-        case "neutral":
-            return .neutral
-        default:
-            return .neutral
-        }
     }
 }
 
