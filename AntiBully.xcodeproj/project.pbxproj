@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7107537C2121F45400465F19 /* BullyClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7107537B2121F45400465F19 /* BullyClassifier.mlmodel */; };
+		71827AD42135B63400ADE61A /* Sentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71827AD32135B63400ADE61A /* Sentiment.swift */; };
 		71F736082121EA3200405677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F736072121EA3200405677 /* AppDelegate.swift */; };
 		71F7360A2121EA3200405677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F736092121EA3200405677 /* ViewController.swift */; };
 		71F7360D2121EA3200405677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F7360B2121EA3200405677 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7107537B2121F45400465F19 /* BullyClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BullyClassifier.mlmodel; sourceTree = "<group>"; };
+		71827AD32135B63400ADE61A /* Sentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment.swift; sourceTree = "<group>"; };
 		71F736042121EA3200405677 /* AntiBully.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntiBully.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F736072121EA3200405677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F736092121EA3200405677 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71827AD22135B62400ADE61A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71827AD32135B63400ADE61A /* Sentiment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		71F735FB2121EA3200405677 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				7107537B2121F45400465F19 /* BullyClassifier.mlmodel */,
+				71827AD22135B62400ADE61A /* Model */,
 				71F7361E2121EB4F00405677 /* View */,
 				71FC2B65212244F70041CE29 /* ViewModel */,
 				71F7361D2121EB4700405677 /* Controller */,
@@ -184,6 +195,7 @@
 				71F7361A2121EB0700405677 /* RoundedButton.swift in Sources */,
 				71FC2B62212241790041CE29 /* Emotion.swift in Sources */,
 				71FC2B672122451B0041CE29 /* ViewModel.swift in Sources */,
+				71827AD42135B63400ADE61A /* Sentiment.swift in Sources */,
 				71F736082121EA3200405677 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

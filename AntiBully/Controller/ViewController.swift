@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         }
         guard let sentence = sentenceTextField.text else { return }
         viewModel = ViewModel(textData: sentence)
-        predictionLabel.text = viewModel.analyze(text: sentence)
+        predictionLabel.text = viewModel.sentiment.text
         sentenceTextField.text = ""
     }
 }

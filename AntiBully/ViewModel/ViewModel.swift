@@ -12,15 +12,16 @@ class ViewModel: NSObject {
     
     public private (set) var textData: String
     
+    lazy public private (set) var sentiment: Sentiment = {
+        let prediction = try? BullyClassifier().prediction(text: textData)
+        guard let label = prediction?.label else { fatalError() }
+        let emojiResponse = emojify(label: label).rawValue
+        return Sentiment(text: emojiResponse)
+    }()
+    
     init(textData: String) {
         self.textData = textData
         super.init()
-    }
-    
-    func analyze(text: String) -> String {
-        let prediction = try? BullyClassifier().prediction(text: text)
-        guard let label = prediction?.label else { return "neutral" }
-        return emojify(label: label).rawValue
     }
     
     func emojify(label: String) -> Emotion {
